@@ -6,6 +6,7 @@ Bedenk zelf een programma waarbij je met een if, else if, else statement verschi
 
 A)	De output toon op het scherm via index.html.<br>
 B)  Leg via comments in je javascript uit wat je doet, een comment maak je door // voor je code te zetten
+C)  ik maak een rekenmachine die kan optellen en aftrekken
 
 */
 
