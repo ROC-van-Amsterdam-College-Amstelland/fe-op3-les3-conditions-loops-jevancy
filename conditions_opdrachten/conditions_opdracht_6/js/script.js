@@ -9,21 +9,21 @@ A)	Toon de som en de uitkomst op scherm via index.html. Dit moet er uitzien als 
 
 */
 
-var myOperator = "+";
+var myOperator = "*";
 var myNumber1 = prompt("geef aub een getal op?");
 var myNumber2 = prompt("geef aub een getal op?");
 var resultaat;
 
-if( myOperator == "+" ){
+if( myOperator == "*" ){
     //hier komt code
-    resultaat = Number(myNumber1) + Number(myNumber2);
+    resultaat = Number(myNumber1) * Number(myNumber2);
     document.getElementById("resultaat").innerHTML = resultaat;
 
     // console.log("De operator is " + myOperator);
 
-} else if ( myOperator == "-" ) {
+} else if ( myOperator == "/" ) {
     // console.log("De operator is -"); 
-    resultaat = myNumber1 - myNumber2;
+    resultaat = myNumber1 / myNumber2;
     document.getElementById("resultaat").innerHTML = resultaat;
 
 }
