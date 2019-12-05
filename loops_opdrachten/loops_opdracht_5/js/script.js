@@ -9,6 +9,11 @@ B)	Toon alleen de <b>oneven</b> getallen console.log() in je console
 */
 
 for( var teller = 1 ;  teller <= 20  ; teller = teller + 1 ){
-    console.log(teller);
-    document.getElementById("resultaat").innerHTML += teller;
+        
+    if (teller % 2== 0) {
+        document.getElementById("resultaat").innerHTML += "<h6>" + teller + "</h6>";
+    }
+    else {
+        console.log(teller);
+    }
 }
